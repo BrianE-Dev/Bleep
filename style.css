@@ -53,6 +53,8 @@ main {
     padding: 0 20px;
     flex: 6;
     height: 90vh;
+    border-left: 4px solid #01235f;
+    border-right: 4px solid #01235f;
 }
 
 
@@ -96,7 +98,7 @@ aside {
     margin: 0;
     height: 500px;
     color: #ffffff;
-    border-left: 4px solid #fff;
+    /* border-left: 4px solid #fff; */
 }
 
 button{
