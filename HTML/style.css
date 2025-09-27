@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url("/HTML/assets/Transport\ Logistica\ GIF\ by\ MLTi\ Logistics\ \(3\).gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    line-height: 1.6;
+}
+header {
+    background: url("/HTML/assets/global-network.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 10px 0;
+}
+.logo{
+    padding-top: 20px;
+}
+header h1 {
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+    gap: 30px;
+}
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+    flex: 6;
+    height: 90vh;
+}
+
+
+.wrap2{
+   margin-top: 10px;
+}
+.wrap2 h1{
+    font-size: 24px;
+    font-weight: 900;
+}
+.gif2 img{
+    width: 400px;
+   
+}
+.offer{
+    height: 250px;
+}
+.content{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content img{
+    width: 300px;
+}
+.black_{
+    background-color: #000;
+}
+aside {
+    background: url("/HTML/assets/Airplane\ Truck\ GIF\ by\ Gebrüder\ Weiss.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex: 3;
+    padding: 130px 0 0 20px;
+    margin: 0;
+    height: 500px;
+    color: #ffffff;
+    border-left: 4px solid #fff;
+}
