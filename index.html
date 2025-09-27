@@ -53,8 +53,10 @@
         </div>
         <div>
             <form action="">
-                <label for="Location">Location</label>
-                <select name="Location" id="currentLocation" >
+                <table>
+                    <tr>
+                <td><label for="Location">Location:</label></td>
+                <td><select name="Location" id="currentLocation" >
                         <option value="">Choose Your Location</option>
                         <Option>Lagos</Option>
                         <Option>Abia</Option>
@@ -91,14 +93,20 @@
                         <Option>Yobe</Option>
                         <Option>Zamfara.</Option>
                 </select>
+                        </td>
+                </tr>
                 <br>
 
-                <label for="weight">Weight</label>
-                <input type="number" placeholder="enter weight in kg" id="kg">
+                <tr>
+                <td><label for="weight">Weight</label></td>
+                <td><input type="number" placeholder="enter weight in kg" id="kg"></td>
+                
+                </tr>
                 <br>
 
-                <label for="destination">Destination</label>
-                <select type="text" id="zone">
+                <tr>
+                <td><label for="destination">Destination</label></td>
+                <td><select type="text" id="zone">
                         <Option>Lagos</Option>
                         <Option>Abia</Option>
                         <Option>Adamawa</Option>
@@ -134,11 +142,17 @@
                         <Option>Yobe</Option>
                         <Option>Zamfara</Option>
                     </select>
+                        </td>
+                    </tr>
                 <br>
 
-                <label for="express">express</label>
-                <input type="checkbox" id="express">
-
+                <tr>
+                    <td>
+                    <label for="express">express</label>
+                    <input type="checkbox" id="express">
+                    </td>
+                </tr>
+                </table>
             </form>
                 <button onclick="newLocation()">Check</button>
 
