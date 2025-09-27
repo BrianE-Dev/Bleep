@@ -5,14 +5,14 @@
     font-family: Arial, sans-serif;
 }
 body {
-    background-image: url("/HTML/assets/Transport\ Logistica\ GIF\ by\ MLTi\ Logistics\ \(3\).gif");
+    background-image: url("transportLog.gif");
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
     line-height: 1.6;
 }
 header {
-    background: url("/HTML/assets/global-network.jpg");
+    background: url("global-network.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
@@ -83,7 +83,7 @@ main {
     background-color: #000;
 }
 aside {
-    background: url("/HTML/assets/Airplane\ Truck\ GIF\ by\ Gebrüder\ Weiss.gif");
+    background: url("airplaneTruck.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
