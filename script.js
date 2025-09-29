@@ -16,6 +16,7 @@ let extraFee, destinationZone, extraWeight, totalAmount;
     const zone = document.getElementById("zone").value;
     const express = document.getElementById("express").checked;
 
+
         
     console.log("Weight (kg):", kg);
     console.log("Your Location:", currentLoc);
@@ -27,7 +28,7 @@ let extraFee, destinationZone, extraWeight, totalAmount;
             if (kg > maxWeight && zone === destinationZone) console.log("Weight limit exceeded: " + (cost) + " + exceeded weight charge of " + (extraWeight) + ". The Total Amount without express is " + (cost + extraWeight))
             if (kg <= maxWeight && zone !== destinationZone) console.log("Total Amount without express = " + (totalAmount))
             if (kg > maxWeight && zone !== destinationZone) console.log("Weight limit exceeded: " + (cost) + " + extra shipping fee of " + (extraFee) + " + exceeded weight charge of " + (extraWeight) + ". The Total Amount without express is " + (totalAmount + extraWeight))
-                
+
                 if (express) {
                      if (kg <=maxWeight && zone === destinationZone) console.log(" For Express Delivery, the total Amount is " + (cost * 1.5))
                      if (kg > maxWeight && zone === destinationZone) console.log(" For Express Delivery and exceeded weight limit charges included, the total Amount is " + ((cost + extraWeight) * 1.5))
